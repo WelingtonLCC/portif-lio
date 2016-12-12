@@ -1,0 +1,128 @@
+@charset "UTF-8";
+/*Autor: Welington Luiz Correa Campos
+ * e-mail: welington.c.campos@hotmail.com
+ * data: 12-11-2016
+ * descri├º├úo: P├ígina pessoal de portif├│lio */
+* {
+  padding: 0;
+  margin: 0; }
+
+img {
+  max-width: 100%; }
+
+.conteiner {
+  width: 100%; }
+
+/* Menu-deslizante */
+nav {
+  position: absolute;
+  width: 960px;
+  margin-left: 202px;
+  margin-right: auto;
+  height: 100px; }
+  nav div {
+    float: left; }
+
+.left li {
+  float: left; }
+
+.right li {
+  float: right; }
+
+.pointer {
+  cursor: pointer; }
+
+.cursorDefault {
+  cursor: default; }
+
+.espaco {
+  margin-left: 298px; }
+  .espaco h3 {
+    text-decoration: none;
+    font-size: 0.8em;
+    color: white; }
+
+.imgUser {
+  margin-top: 8px; }
+
+.menu-principal li {
+  font-family: "Arial Unicode MS";
+  list-style: none;
+  display: block;
+  margin-right: 17px;
+  line-height: 70px;
+  text-transform: uppercase; }
+  .menu-principal li a {
+    text-decoration: none;
+    font-size: 0.8em;
+    color: white; }
+  .menu-principal li .logar {
+    font-size: 1.1em;
+    margin-right: 15px; }
+
+/*Inicio banner top */
+.imgBanner {
+  background: url("../image/Banner_Wl.png") no-repeat;
+  height: 545px; }
+
+.Container-header {
+  position: relative;
+  width: 960px;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  top: 149px; }
+  .Container-header .blocoTitulo {
+    width: 400px; }
+
+/*Footer Rodap├® e cart├úo */
+footer {
+  width: 100%;
+  height: 362px;
+  background: #e5e5e5; }
+  footer .container-footer {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    background: white; }
+    footer .container-footer article {
+      width: 960px;
+      height: 300px; }
+  footer .address {
+    width: 100%;
+    height: 62px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #1a1e27; }
+    footer .address p {
+      color: white;
+      text-align: center;
+      font-size: 1.4em;
+      line-height: 62px; }
+
+.menu-lateral {
+  box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.5);
+  width: 251px;
+  height: 300px;
+  background: black; }
+  .menu-lateral ul {
+    list-style: none;
+    font-family: "Arial";
+    font-size: 0.7em; }
+    .menu-lateral ul li {
+      display: block;
+      width: 100%;
+      text-align: center;
+      line-height: 62px;
+      background: white;
+      height: 58px;
+      border: 1px solid #828282;
+      box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5); }
+      .menu-lateral ul li a {
+        text-decoration: none;
+        color: black; }
+
+.gradient-menu-lateral {
+  background-image: -webkit-linear-gradient(#03fca6, #0190b8);
+  background-image: -o-linear-gradient(#03fca6, #0190b8);
+  background-image: linear-gradient(#03fca6, #0190b8); }

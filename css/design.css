@@ -1,0 +1,10 @@
+@charset "UTF-8";
+/*Autor: Welington Luiz Correa Campos
+ * e-mail: welington.c.campos@hotmail.com
+ * data: 12-11-2016
+ * descri├º├úo: P├ígina pessoal de portif├│lio */
+.blocoTitulo h1 {
+  font-family: "AR DELANEY";
+  font-size: 3em; }
+  .blocoTitulo h1 p {
+    display: block; }
