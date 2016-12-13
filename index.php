@@ -60,9 +60,27 @@
                  <li><h3><a href="#">Serviços</a></h3></li>
                </ul> 
             </div>
-            <section>
-              
-            </section>
+            <div class="cont-content">
+              <div class="cont-contato">
+                <div class="faixaApresenta">
+                  <img src="image/Foto.png" alt="Foto do desenvolvedor">
+                  <div>
+                    <h4>Welington Campos</h4>
+                    <h5><strong>Desenvolvedor WEB</strong></h5>
+                  </div>
+                </div>
+                <div class="faixa-contato">
+                  <p>Sistemas completos para qualquer tipo de négocio, lojas, empresas e pessoal que tenham interesse em ter um página pessoal.</p>
+                  <img src="image/Circulo.png" alt="">
+                  <p class="pCel">(19) 99177-4152</p>
+                  <p class="pEmail">welington.c.campos@hotmail.com</p>
+                </div>
+              </div>
+              <!-- Imagens de midias sociais -->
+              <div class="cont-midia">
+                <img src="image/midias.png" alt="Midias">
+              </div>
+            </div>
           </article>
           <!-- Direítos -->
         </div>

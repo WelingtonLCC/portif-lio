@@ -8,3 +8,8 @@
   font-size: 3em; }
   .blocoTitulo h1 p {
     display: block; }
+
+.gradient-menu-lateral {
+  background-image: -webkit-linear-gradient(90deg, #03fca6, #0190b8);
+  background-image: -o-linear-gradient(90deg, #03fca6, #0190b8);
+  background-image: linear-gradient(90deg, #03fca6, #0190b8); }
